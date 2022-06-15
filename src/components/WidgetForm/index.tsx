@@ -26,7 +26,7 @@ export const feedbackTypes = {
     },
     
     OTHER: {
-        title: "Other",
+        title: "Another",
         image: {
             source: thoughtImageUrl,
             alt: "Image of a thought bubble"

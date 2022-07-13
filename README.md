@@ -62,13 +62,17 @@
     <a href="https://www.typescriptlang.org/docs/"> 
       <img align="center" alt="Icon-TypeScript" height="35" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"> 
     </a> &nbsp;
-    <!-- Icon Expo --> 
-    <a href="https://docs.expo.dev/"> 
-      <img align="center" alt="Icon-Expo" height="35" src="https://user-images.githubusercontent.com/44311634/178088819-374d1241-cef7-4f68-b400-4a33ccec45e2.png"> 
+    <!-- Icon Vite --> 
+    <a href="https://vitejs.dev/guide/"> 
+      <img align="center" alt="Icon-Vite" height="35" src="https://user-images.githubusercontent.com/44311634/178621448-92a00500-f7b2-4764-a109-9cdf4221abd7.svg"> 
     </a> &nbsp;
     <!-- Icon React -->
     <a href="https://reactjs.org/docs/getting-started.html"> 
       <img align="center" alt="Icon-React" height="35" src="https://user-images.githubusercontent.com/44311634/178088844-02a9c9ba-28b9-4ef6-87f0-d12d52ceaf0b.png"> 
+    </a> &nbsp;
+    <!-- Icon Tailwindcss --> 
+    <a href="https://tailwindcss.com/docs/installation"> 
+      <img align="center" alt="Icon-Talwindcss" height="35" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"> 
     </a> &nbsp;
     <!-- Icon Axios -->
     <a href="https://axios-http.com/docs/intro"> 
@@ -83,7 +87,7 @@
 <!---- GETTING STARTED ----> 
 ## Getting Started
 
-To get started, you need to have <strong>Node.js 16+</strong> installed on your machine, for more information visit <a href="https://nodejs.org/en/download/"> Node.js Downloads</a>. You will also need to have <strong>Expo</strong> installed on your mobile phone, for more information visit <a href="https://play.google.com/store/apps/details?id=host.exp.exponent">Expo to Google Play</a> or <a href="https://apps.apple.com/app/expo-go/id982107779">Expo to App Store</a>. 
+To get started, you need to have <strong>Node.js 16+</strong> installed on your machine, for more information visit <a href="https://nodejs.org/en/download/"> Node.js Downloads</a>. 
 
 
 ### Prerequisites 
@@ -95,28 +99,16 @@ First of all, we need to ensure that the <strong>server is running</strong>, to 
 
 1. Clone the repo 
    ```bash
-   git clone https://github.com/vihugoos/feedback-widget-mobile-app.git
+   git clone https://github.com/vihugoos/feedback-widget-web.git 
    ```
-2. Open cmd terminal and install expo cli globally 
-   ```cmd
-   npm install -g expo-cli
-   ```
-3. Inside the project root directory install all project dependencies 
+2. Inside the project root directory install all project dependencies 
    ```cmd
    npm install
    ```
-4. Capture your machine's `IPv4 Address`
+3. Create an `.env.local` file with the server API URL 
    ```cmd
-   ipconfig
-   ```
-   <img align="center" alt="print-ipconfig" src="https://user-images.githubusercontent.com/44311634/178123996-7183d436-2bd2-4f5e-b8ac-2ecd8f3d0737.jpg">
-   <br/> <br/> 
-5. Change the baseURL in `.\src\libs\api.ts`, with your IP, keeping the door `:3333` 
-   ```ts
-    export const api = axios.create({
-      baseURL: 'http://192.168.1.9:3333'
-    })
-   ```
+   echo "VITE_API_URL='http://localhost:3333'" > .env.local 
+   ``` 
  
 
 <!---- USAGE EXAMPLES ----> 
@@ -124,23 +116,11 @@ First of all, we need to ensure that the <strong>server is running</strong>, to 
 
 With the installation complete, we can start the project.
 
-1. Starting the project 
+* Starting the project 
    ```bash
-   expo start --clear 
+   npm run dev  
    ```
-
-
-2. Open the <strong>Expo</strong> app on your mobile and scan the <strong>QR Code</strong> displayed on the terminal and wait for the project to build. On IOS use the camera app to scan the QR Code. 
-
 <br/>
-
-You can also create an account at Expo and in the terminal log in with your account, the running projects will automatically be displayed in the Expo app.
-
-* Expo login CLI
-   ```bash
-   expo signin -u yourUserName -p yourPassword 
-   ```
-<br/> 
 
 
 <!---- CONTRIBUTING ---->

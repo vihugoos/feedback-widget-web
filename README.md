@@ -45,7 +45,7 @@
 ## About The Project
 
 <div align="center">
-  <img src="" align="center" height="500" alt="Project Home Page">
+  <img src="https://user-images.githubusercontent.com/44311634/178625239-ae338828-e08f-44c3-8059-9fff97e856c8.gif" align="center" height="500" alt="Project Home Page">
   <br/> <br/> 
   <p> A widget where you can send feedback to the website administrator about bugs, ideas, etc. </p>
 </div>

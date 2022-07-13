@@ -8,8 +8,8 @@
   </h2>
   
   <p align="center">
-    A feedback widget to capture feedback from your app's users, developed with Vite and React. <br/>
-    Explore <a href="https://vitejs.dev/guide/">Vite</a> or <a href="https://reactjs.org/">React</a> docs &#187; <br/> <br/>
+    A feedback widget to capture feedback from your app's users, developed with React and Tailwindcss. <br/>
+    Explore <a href="https://reactjs.org/">React</a> or <a href="https://tailwindcss.com/docs/installation">Tailwindcss</a> docs &#187; <br/> <br/>
     <a href="https://feedback-widget-web-rosy.vercel.app/"> View Demo Project </a> &nbsp;•&nbsp;
     <a href="https://github.com/vihugoos/feedback-widget-web/issues"> Report Bug </a> &nbsp;•&nbsp;
     <a href="https://github.com/vihugoos/feedback-widget-web/issues"> Request Feature </a>

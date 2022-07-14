@@ -1,5 +1,7 @@
 <div id="top"> </div>
 
+[![Feedback Widget](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://feedback-widget-web-rosy.vercel.app/)
+
 <!---- PROJECT LOGO ----> 
 <div align="center">
 
@@ -9,7 +11,7 @@
   
   <p align="center">
     A feedback widget to capture feedback from your app's users, developed with React and Tailwindcss. <br/>
-    Explore <a href="https://reactjs.org/">React</a> or <a href="https://tailwindcss.com/docs/installation">Tailwindcss</a> docs &#187; <br/> <br/>
+    Explore <a href="https://reactjs.org/docs/getting-started.html">React</a> or <a href="https://tailwindcss.com/docs/installation">Tailwindcss</a> docs &#187; <br/> <br/>
     <a href="https://feedback-widget-web-rosy.vercel.app/"> View Demo Project </a> &nbsp;•&nbsp;
     <a href="https://github.com/vihugoos/feedback-widget-web/issues"> Report Bug </a> &nbsp;•&nbsp;
     <a href="https://github.com/vihugoos/feedback-widget-web/issues"> Request Feature </a>
@@ -55,27 +57,27 @@ A widget where customers can send feedback to the app admin about bugs, ideas, e
 
 <div style="display: inline_block">
     <!-- Icon Node.js --> 
-    <a href="https://nodejs.org/en/docs/"> 
+    <a href="https://nodejs.org/en/"> 
       <img align="center" alt="Icon-Node.js" height="35" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"> 
     </a> &nbsp;
     <!-- Icon TypeScript --> 
-    <a href="https://www.typescriptlang.org/docs/"> 
+    <a href="https://www.typescriptlang.org/"> 
       <img align="center" alt="Icon-TypeScript" height="35" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"> 
     </a> &nbsp;
     <!-- Icon Vite --> 
-    <a href="https://vitejs.dev/guide/"> 
+    <a href="https://vitejs.dev/"> 
       <img align="center" alt="Icon-Vite" height="35" src="https://user-images.githubusercontent.com/44311634/178621448-92a00500-f7b2-4764-a109-9cdf4221abd7.svg"> 
     </a> &nbsp;
     <!-- Icon React -->
-    <a href="https://reactjs.org/docs/getting-started.html"> 
+    <a href="https://reactjs.org/"> 
       <img align="center" alt="Icon-React" height="35" src="https://user-images.githubusercontent.com/44311634/178088844-02a9c9ba-28b9-4ef6-87f0-d12d52ceaf0b.png"> 
     </a> &nbsp;
     <!-- Icon Tailwindcss --> 
-    <a href="https://tailwindcss.com/docs/installation"> 
+    <a href="https://tailwindcss.com/"> 
       <img align="center" alt="Icon-Talwindcss" height="35" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"> 
     </a> &nbsp;
     <!-- Icon Axios -->
-    <a href="https://axios-http.com/docs/intro"> 
+    <a href="https://axios-http.com/"> 
       <img align="center" alt="Icon-Axios" height="55" src="https://user-images.githubusercontent.com/44311634/178089407-0176462e-7e60-4f4f-9ad8-5429a22b2c5c.png"> 
     </a>
 </div>
